@@ -1,3 +1,4 @@
-# rez-curl
+rez-curl
+===
 
 Rez build configuration for Curl.
