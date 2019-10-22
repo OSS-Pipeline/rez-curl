@@ -40,9 +40,9 @@ cd ${BUILD_PATH}
 
 ${EXTRACT_PATH}/configure \
     --prefix=${INSTALL_PATH} \
+    CFLAGS="-fPIC" \
+    CXXFLAGS="-fPIC" \
     --with-pic \
-    CFLAGS=-fPIC \
-    CXXFLAGS=-fPIC \
     --with-zlib=${REZ_ZLIB_ROOT}
 
 echo -e "\n"
